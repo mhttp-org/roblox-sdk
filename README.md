@@ -1,7 +1,7 @@
 # Usage Instruction
 
 Installation
-1. go to [change link](https://create.roblox.com/marketplace/asset/8327771994/Elevators-Teleport?pageNumber=1&pagePosition=19&keyword=teleporter) and click "GET MODEL", or search for "MHTTP teleporter" on the roblox toolbox marketplace
+1. go to https://create.roblox.com/marketplace/asset/13345082484/Teleporter and click "GET MODEL", or search for "MHTTP teleporter" on the roblox toolbox marketplace
 1. drag the portal from the toolbox into the main window, if you alredy saved the model to your inventory in the previous step, you can find it in the inventory tab in the toolbox
 
 Configuration
