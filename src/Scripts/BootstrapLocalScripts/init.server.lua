@@ -33,7 +33,6 @@ for _, localObject in ipairs(script:getChildren()) do
 		newObj.Parent = folder;
 		if newObj.ClassName == "LocalScript" then
 			newObj.Disabled = false;
-			newObj:WaitForChild("PortalReference").Value = portal;
 		end
 	end
 end
