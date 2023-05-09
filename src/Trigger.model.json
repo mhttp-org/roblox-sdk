@@ -1,0 +1,22 @@
+{
+  "ClassName": "Part",
+  "Properties": {
+    "Anchored": true,
+    "Massless": true,
+    "CanCollide": false,
+    "CanQuery": true,
+    "CanTouch": true,
+    "Transparency": 1,
+    "CFrame": {
+      "CFrame": {
+        "position": [0.0, 9.5, 0.0],
+        "orientation": [
+            [1.0, 0.0, 0.0],
+            [0.0, 1.0, 0.0],
+            [0.0, 0.0, 1.0]
+        ]
+      }
+    },
+    "Size": [12, 14, 3]
+  }
+}

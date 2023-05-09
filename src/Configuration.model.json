@@ -1,0 +1,23 @@
+{
+  "ClassName": "Folder",
+  "Children": [
+    {
+      "Name": "Destination",
+      "ClassName": "Folder",
+      "Children": [
+        {
+          "Name": "PlaceId",
+          "ClassName": "NumberValue",
+          "Property": {
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Title",
+      "ClassName": "StringValue",
+      "Property": {
+      }
+    }
+  ]
+}

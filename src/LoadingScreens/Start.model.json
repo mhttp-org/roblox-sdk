@@ -1,0 +1,17 @@
+{
+  "ClassName": "ScreenGui",
+  "Properties": {
+    "IgnoreGuiInset": true
+  },
+  "Children": [
+    {
+      "ClassName": "ImageLabel",
+      "Properties": {
+        "Image": { "Content": "rbxassetid://12130100995" },
+        "BackgroundColor3": [0.812, 0.439, 0.957],
+        "Size": { "UDim2": [[1, 0], [1, 0]] },
+        "ZIndex": 999
+      }
+    }
+  ]
+}

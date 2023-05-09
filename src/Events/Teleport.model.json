@@ -1,0 +1,10 @@
+{
+  "ClassName": "RemoteEvent",
+  "Properties": {
+    "Attributes": {
+      "IsSingleton":  {
+        "Bool": true
+      }
+    }
+  }
+}

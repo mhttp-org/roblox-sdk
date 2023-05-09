@@ -1,0 +1,41 @@
+{
+  "ClassName": "Part",
+  "Properties": {
+    "Transparency": 1,
+    "CFrame": {
+      "CFrame": {
+        "position": [0.0, 9.5, 0.0],
+        "orientation": [
+            [1.0, 0.0, 0.0],
+            [0.0, 1.0, 0.0],
+            [0.0, 0.0, 1.0]
+        ]
+      }
+    },
+    "CanCollide": false,
+    "CanQuery": false,
+    "CanTouch": false,
+    "Anchored": true,
+    "Massless": true,
+    "Size": [12, 14,4]
+  },
+  "Children": [
+    {
+      "ClassName": "SurfaceGui",
+      "Properties": {
+        "Face": "Front"
+      },  
+      "Children": [
+        {
+          "ClassName": "TextLabel",
+          "Name": "TitleLabel",
+          "Properties": {
+            "Text": "",
+            "Position": { "UDim2": [[0, 0], [0, -200]] },
+            "TextColor3": [0.031, 0.075, 0.349]
+          }
+        }
+      ]
+    }
+  ]
+}

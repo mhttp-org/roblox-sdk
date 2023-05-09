@@ -1,0 +1,4 @@
+-- You can replace the loading screens in this folder
+-- you can even add script to animate the start loading screen.
+-- However, Destination loading screen must be strictly plain GUI objects,
+-- meaning scripts/sound will not be used/copied to the destination.
