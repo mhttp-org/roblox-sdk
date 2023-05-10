@@ -1,5 +1,9 @@
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock
+
 /build/*
 !/build/.gitkeep
+
+/bin/*
+!/bin/.gitkeep
