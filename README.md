@@ -10,3 +10,14 @@ Configuration
 1. input the destination place id to the the `Value` property of "PlaceID", under the "Configuration" > "Destination" folder
     1. the destination is where this portal will leads to, for example, it could be your friend's game, or a different experience you created
     1. to find the place id, the easiest way is to find link of your game, e.g. (**FIXME: update link**) `https://www.roblox.com/games/6766156863/Strongman-Simulator`, the number after "games/" is the place id
+
+
+# Local Development
+
+This project use [rojo](https://github.com/rojo-rbx/rojo) to aid source control, most component of the portal are in rojo's representation. Since rojo [doesn't support Ref yet](https://github.com/rojo-rbx/rojo/issues/427), we use [rbxmk](https://github.com/Anaminus/rbxmk) to update the necessary object.
+
+## build m-portal.rbxmx locally
+
+1. download [rojo](https://github.com/rojo-rbx/rojo) and [rbxmk](https://github.com/Anaminus/rbxmk) and put both executable in `./bin` for convenience
+1. run `.\bin\rojo.exe build . -o ./build/m-portal.rbxmx`
+1. run `.\bin\rbxmk.exe run .\scripts\update_model_refs.lua .\build\m-portal.rbxmx`
