@@ -1,8 +1,5 @@
 {
   "ClassName": "ObjectValue",
   "Property": {
-    "Value": {
-      "Ref": "../../../init.meta.json"
-    }
   }
 }
