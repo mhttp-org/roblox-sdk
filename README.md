@@ -14,7 +14,7 @@ Configuration
 
 # Local Development
 
-This project use [rojo](https://github.com/rojo-rbx/rojo) to aid source control, most component of the portal are in rojo's representation. Since rojo [doesn't support Ref yet](https://github.com/rojo-rbx/rojo/issues/427), we use [rbxmk](https://github.com/Anaminus/rbxmk) to update the necessary object.
+This project use [rojo](https://github.com/rojo-rbx/rojo) to develop the roblox model, most component of the portal are in rojo's json representation. Since rojo [doesn't support Ref yet](https://github.com/rojo-rbx/rojo/issues/427), we use [rbxmk](https://github.com/Anaminus/rbxmk) to update the necessary object.
 
 ## build m-portal.rbxmx locally
 
