@@ -9,7 +9,7 @@ Configuration
 1. click on the portal, and in the "Explorer" window, you will see the "Configuration" folder
 1. input the destination place id to the the `Value` property of "PlaceID", under the "Configuration" > "Destination" folder
     1. the destination is where this portal will leads to, for example, it could be your friend's game, or a different experience you created
-    1. to find the place id, the easiest way is to find link of your game, e.g. (**FIXME: update link**) `https://www.roblox.com/games/6766156863/Strongman-Simulator`, the number after "games/" is the place id
+    1. to find the place id, the easiest way is to find link of your game, e.g. `https://www.roblox.com/games/1818/Classic-Crossroads`, the number after "games/" (`1818` in this example) is the place id
 
 
 # Local Development
