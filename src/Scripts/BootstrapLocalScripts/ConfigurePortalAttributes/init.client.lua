@@ -8,6 +8,6 @@ local titlePart = portal:WaitForChild("Title");
 
 local playerCharacter = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait();
 
-local titleText = configuration.Title;
+local titleText = configuration.Title.Value;
 
 titlePart:WaitForChild("SurfaceGui"):WaitForChild("TitleLabel").Text = titleText;

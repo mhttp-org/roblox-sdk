@@ -5,13 +5,6 @@ local StarterGui = game:GetService("StarterGui");
 local portal = script.Parent.Parent;
 local portalTrigger = portal:FindFirstChild("Trigger", false);
 local configuration = portal.Configuration;
-local titleLabel = portal:FindFirstChild("TitleLabel", true);
-
-
-local portalJson = portal:GetAttribute("json");
-
-local titleText = configuration.Title.Value;
-titleLabel.Text = titleText;
 
 local destinationPlaceIdRef = configuration.Destination.PlaceId;
 
