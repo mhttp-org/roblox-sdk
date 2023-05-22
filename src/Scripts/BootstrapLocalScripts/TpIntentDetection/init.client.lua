@@ -18,6 +18,8 @@ function loadLoadingScreen()
 		TeleportService.TeleportInitFailed:Once(function(player, teleportResult, errorMessage, placeId, teleportOptions)
 			-- https://create.roblox.com/docs/reference/engine/classes/TeleportService#TeleportInitFailed
 			-- this event does fire in client side
+			-- however it does NOT run if it failed BEFORE teleport is attempted,
+			-- e.g. completely invalid placeId, error occured in the server script, etc
 			loadingScreen:Destroy();
 			loadingScreen = nil;
 		end);
