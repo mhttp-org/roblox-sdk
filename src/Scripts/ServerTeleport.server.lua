@@ -1,4 +1,3 @@
-local runService = game:GetService("RunService");
 local TeleportService = game:GetService('TeleportService');
 local StarterGui = game:GetService("StarterGui");
 
@@ -8,14 +7,14 @@ local configuration = portal.Configuration;
 
 local destinationPlaceIdRef = configuration.Destination.PlaceId;
 
+local events = portal:WaitForChild("Events");
 
-local Events = portal:WaitForChild("Events");
 
 local overlapParams = OverlapParams.new();
 overlapParams.FilterType = Enum.RaycastFilterType.Whitelist;
 overlapParams.FilterDescendantsInstances = { portalTrigger };
 
-Events.Teleport.OnServerEvent:Connect(function(player)
+events.Teleport.OnServerEvent:Connect(function(player)
 	local playerCFrame, playerSize = player.Character:GetBoundingBox();
 	local velocity = player.Character.HumanoidRootPart.Velocity;
 	local delay = player:GetNetworkPing() + 0.200;
@@ -39,7 +38,7 @@ Events.Teleport.OnServerEvent:Connect(function(player)
 			{ player }
 		);
 	else
-		portal.Events.Teleport:FireClient(player, false);
+		events.Teleport:FireClient(player, false);
 	end
 end);
 
