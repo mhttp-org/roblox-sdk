@@ -7,7 +7,7 @@
 ## Usage Instruction
 
 ### Installation
-1. go to https://create.roblox.com/marketplace/asset/13345082484/m-Portal and click "GET MODEL", or search for "MHTTP teleporter" on the roblox toolbox marketplace
+1. go to https://create.roblox.com/marketplace/asset/13345082484/m-Portal and click "GET MODEL", or search for "m Portal" on the roblox toolbox marketplace
 1. drag the portal from the toolbox into the main window, if you alredy saved the model to your inventory in the previous step, you can find it in the inventory tab in the toolbox
 
 ### Configuration
