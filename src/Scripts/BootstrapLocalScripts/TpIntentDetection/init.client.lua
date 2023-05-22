@@ -15,7 +15,9 @@ function loadLoadingScreen()
 
 		loadingScreen.Parent = LocalPlayer.PlayerGui;
 
-		TeleportService.TeleportInitFailed:Once(function()
+		TeleportService.TeleportInitFailed:Once(function(player, teleportResult, errorMessage, placeId, teleportOptions)
+			-- https://create.roblox.com/docs/reference/engine/classes/TeleportService#TeleportInitFailed
+			-- this event does fire in client side
 			loadingScreen:Destroy();
 			loadingScreen = nil;
 		end);
