@@ -1,6 +1,6 @@
 <h1 align="center">mPortal</h1>
 
-<h3 align="center">A battery included, customizable cross game Roblox teleporter</h3>
+<h3 align="center">A battery included, customizable Roblox teleporter</h3>
 
 <div align="center"><img src="./repo_resources/hero.gif" alt="example" /></div>
 
